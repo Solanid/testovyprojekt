@@ -6,6 +6,7 @@ main(){
 	int max2=0, x;
 	FILE *fr, *fw;
 	int i;
+	printf("Hello world");
 	fr=fopen("data.txt","r");
 	if(fr==NULL){
 		printf("ERROR, file issue!");
